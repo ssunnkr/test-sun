@@ -9,4 +9,4 @@
 | 2022-05-12 | ☑️ | ☆ | 작사가 인공지능 만들기  | #Mnist #Matplotlib #validation, train, test → dataset split #Sequential Model #Sequenetial API #LeNet  |  lyrics.txt(49) |  
 | 2022-05-17 |  |  | 뉴스 요약봇 만들기  |   |   |  
 | 2022-05-19 |  |  | 카메라 스티커앱 만들기 첫걸음  |   |   | 
-| |  |  |   |   |   | 
+| 2022-05-24|  |  | 영화리뷰 텍스트 감성분석하기  |   |   | 
