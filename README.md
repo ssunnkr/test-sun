@@ -7,6 +7,6 @@
 | 2022-05-03 | ☑️ |⭐  | 나의 첫번째 캐글 경진대회, 무작정 따라해보기  | 앙상블 기법, 하이퍼 파라미터, Grid Search, Random Search  | submission.csv  |    
 | 2022-05-10 | ☑️ | ⭐ | 인공지능과 가위바위보 하기  | #Mnist #Matplotlib #validation, train, test → dataset split #Sequential Model #Sequenetial API#LeNet   | hand.jpg(3660)  | 
 | 2022-05-12 | ☑️ | ☆ | 작사가 인공지능 만들기  | #Mnist #Matplotlib #validation, train, test → dataset split #Sequential Model #Sequenetial API #LeNet  |  lyrics.txt(49) |  
-| 2022-05-17 |  |  | 뉴스 요약봇 만들기  |   |   |  
-| 2022-05-19 |  |  | 카메라 스티커앱 만들기 첫걸음  |   |   | 
+| 2022-05-17 | ☑️ | ⭐ | 뉴스 요약봇 만들기  |   |   |  
+| 2022-05-19 | ☑️ | ⭐ | 카메라 스티커앱 만들기 첫걸음  |   |   | 
 | 2022-05-24|  |  | 영화리뷰 텍스트 감성분석하기  |   |   | 
