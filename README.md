@@ -1,4 +1,4 @@
-## 🌳나무를 심는 기분으로 🤖AI '탐구🔍' 프로젝트 생활  
+## 🌳나무를 심는 기분으로 슬기로운 🤖AI '탐구🔍' 프로젝트 생활  
 | DATE | 진행 | 완료 | EXPLORATION 내용 | Model | Data  | 
 | ------ | -- | -- |----------- |----|---|
 | 1 | ☑️ | ⭐ | Iris의 세 가지 품종, 분류해보기 | #scikit-learn  #Decision Tree #XGBoost #RandomForest #로지스틱 회귀 모델#accuracy, loss → evaluation metrics  | sklearn  |  
