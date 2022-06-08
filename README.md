@@ -9,10 +9,10 @@
 | 6 | ☑️ | ⭐ | 작사가 인공지능 만들기  | #Mnist #Matplotlib #validation, train, test → dataset split #Sequential Model #Sequenetial API #LeNet  |  lyrics.txt(49) |  
 | 7 | ☑️ | ⭐ | 뉴스 요약봇 만들기  | #seq2seq #attention #Abstractive, Extractive 요약 #Early stopping  |   |  
 | 8 | ☑️ | ⭐ | 카메라 스티커앱 만들기 첫걸음  | #opencv #pillow #dilb  |   | 
-| 9 | ☑️ |  | 영화리뷰 텍스트 감성분석하기  | #pre-padding #post-padding #정규표현식 #불용어 boolean #토크나이즈  |   | 
+| 9 | ☑️ | ⭐ | 영화리뷰 텍스트 감성분석하기  | #pre-padding #post-padding #정규표현식 #불용어 boolean #토크나이즈  |   | 
 | 10 | ☑️ |  | 인물사진을 만들어보자  | #segmentation #sementic #instance #비트와이즈 #pre-trained weight  |   | 
 | 11 | ☑️ |  | 트랜스포머로 만드는 대화형 챗봇  | #Transformer #encoder #decoder #self-attention   |   | 
-| 12 |  |  | 문자를 읽을 수 있는 딥러닝  | #OCR #detection #recognition #Google OCR API #keras-ocr #Tesseract #naver 클라우드 플랫폼 AP # kakao vision API  |   | 
+| 12 | ☑️ |  | 문자를 읽을 수 있는 딥러닝  | #OCR #detection #recognition #Google OCR API #keras-ocr #Tesseract #naver 클라우드 플랫폼 AP # kakao vision API  |   | 
 | 13 |  |  | 인간보다 퀴즈를 잘푸는 인공지능  | #BERT(bi-directional) #SQuAD #KorQuAD #Transfer Learning #Pretrained embedding   |   | 
 | 14 |  |  | 인공지능으로 세상에 없던 새로운 패션 만들기  | #GAN #Pix2Pix #CycleGAN #Fashion MNIST #DCGAN  |   | 
 | 15 |  |  | 아이유팬이 좋아할 만한 다른 아티스트 찾기  |#Recommender System #Matrix Factorization #CSR Matrix #Explicit data #Implicit data  |   | 
