@@ -1,5 +1,5 @@
 ## 🌳나무를 심는 기분으로 슬기로운 🤖AI '탐구🔍' 프로젝트 생활  
-| DATE | 진행 | 완료 | EXPLORATION 내용 | Model | Data  | 
+| NUM | 진행 | 완료 | EXPLORATION 내용 | Model | Data  | 
 | ------ | -- | -- |----------- |----|---|
 | 1 | ☑️ | ⭐ | Iris의 세 가지 품종, 분류해보기 | #scikit-learn  #Decision Tree #XGBoost #RandomForest #로지스틱 회귀 모델#accuracy, loss → evaluation metrics  | sklearn  |  
 | 2 |  ☑️ | ⭐ | 날씨 좋은 월요일 오후 세 시, 자전거 타는 사람은 몇 명? |#linear-Regression #손실함수 #수치미분 #해석미분 #경사하강법 #선형회귀   | diabetes |  
