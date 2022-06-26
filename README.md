@@ -17,4 +17,4 @@
 | 14 | ☑️  | ⭐  | 인공지능으로 세상에 없던 새로운 패션 만들기  | #GAN #Pix2Pix #CycleGAN #Fashion MNIST #DCGAN  |   | 
 | 15 |  ☑️  |  | 아이유팬이 좋아할 만한 다른 아티스트 찾기  |#Recommender System #Matrix Factorization #CSR Matrix #Explicit data #Implicit data  |   | 
 | 16 |  ☑️|  | 난 스케치를 할테니 너는 채색을 하거라  | #Conditional Generative Model #Unconditional Generative Model #Segmentation map   |   | 
-| 17 | ☑️  |  | 다음에 볼 영화 예측하기  | #Session-Based Recommendation #Sequential Recommendation #Context-Aware #GRU4REC   |   | 
+| 17 |  |  | 다음에 볼 영화 예측하기  | #Session-Based Recommendation #Sequential Recommendation #Context-Aware #GRU4REC   |   | 
