@@ -18,4 +18,43 @@
 | 15 | ☑️ |  | 아이유팬이 좋아할 만한 다른 아티스트 찾기  |#Recommender System #Matrix Factorization #CSR Matrix #Explicit data #Implicit data  |   | 
 | 16 | ☑️ |  | 난 스케치를 할테니 너는 채색을 하거라  | #Conditional Generative Model #Unconditional Generative Model #Segmentation map   |   | 
 | 17 | ☑️ |  | 다음에 볼 영화 예측하기  | #Session-Based Recommendation #Sequential Recommendation #Context-Aware #GRU4REC   |   | 
+| 18 |  |  | 백본 네트워크 구조 상세분석 |  |  | 
+| 19 |  |  | 없다면 어떻게 될까? (ResNet Ablation Study) |  |  | 
+| 20 |  |  | 잘 만든 Augmentation, 이미지 100장 안 부럽다 |  |  | 
+| 21 |  |  | 이미지 어디까지 우려볼까? |  |  | 
+| 22 |  |  | 너의 속이 궁금해 - Class Activation Map 살펴보기 |  |  | 
+| 23 |  |  | 나를 찾아줘 - Class Activation Map 만들기 |  |  | 
+| 24 |  |  | Object Detection |  |  | 
+| 25 |  |  | GO/STOP! - Object Detection 시스템 만들기 |  |  | 
+| 26 |  |  | 물체를 분리하자! - 세그멘테이션 살펴보기 |  |  | 
+| 27 |  |  | 도로 영역을 찾자! - 세그멘테이션 모델 만들기 |  |  | 
+| 28 |  |  | OCR 기술의 개요 |  |  | 
+| 29 |  |  | 직접 만들어보는 OCR |  |  | 
+| 30 |  |  | 멀리 있지만 괜찮아 |  |  | 
+| 31 |  |  | 멀리 있는 사람도 스티커를 붙여주자 |  |  | 
+| 32 |  |  | 사람의 몸짓을 읽어보자 |  |  | 
+| 33 |  |  | 행동 스티커 만들기 |  |  | 
+| 34 |  |  | 텍스트 데이터 다루기 |  |  | 
+| 35 |  |  | 멋진 단어사전 만들기 |  |  | 
+| 36 |  |  | 텍스트의 분포로 벡터화 하기 |  |  | 
+| 37 |  |  | 뉴스 카테고리 다중분류 |  |  | 
+| 38 |  |  | 워드 임베딩  |  |  | 
+| 39 |  |  | 임베딩 내 편향성 알아보기 |  |  | 
+| 40 |  |  | Seq2seq와 Attention |  |  | 
+| 41 |  |  | Seq2seq로 번역기 만들기 |  |  | 
+| 42 |  |  | Transformer가 나오기까지 |  |  | 
+| 43 |  |  | Transformer로 번역기 만들기 |  |  | 
+| 44 |  |  | 기계 번역이 걸어온 길 |  |  | 
+| 45 |  |  | 번역가는 대화에도 능하다 |  |  | 
+| 46 |  |  | modern NLP의 흐름에 올라타보자 |  |  | 
+| 47 |  |  | BERT pretrained model 제작 |  |  | 
+| 48 |  |  | NLP Framework의 활용 |  |  | 
+| 49 |  |  | HuggingFace 커스텀 프로젝트 만들기 |  |  | 
 |  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+|  |  |  |  |  |  | 
+
