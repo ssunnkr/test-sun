@@ -18,10 +18,10 @@
 | 15 | ☑️ | ⭐ | 아이유팬이 좋아할 만한 다른 아티스트 찾기  |#Recommender System #Matrix Factorization #CSR Matrix #Explicit data #Implicit data  |   | 
 | 16 | ☑️ |  | 난 스케치를 할테니 너는 채색을 하거라  | #Conditional Generative Model #Unconditional Generative Model #Segmentation map   |   | 
 | 17 | ☑️ |  | 다음에 볼 영화 예측하기  | #Session-Based Recommendation #Sequential Recommendation #Context-Aware #GRU4REC   |   | 
-| 18 |  |  | 백본 네트워크 구조 상세분석 |  |  | 
-| 19 |  |  | 없다면 어떻게 될까? (ResNet Ablation Study) |  |  | 
-| 20 |  |  | 잘 만든 Augmentation, 이미지 100장 안 부럽다 |  |  | 
-| 21 |  |  | 이미지 어디까지 우려볼까? |  |  | 
+| 18 | ☑️ |  | 백본 네트워크 구조 상세분석 |  |  | 
+| 19 | ☑️ |  | 없다면 어떻게 될까? (ResNet Ablation Study) |  |  | 
+| 20 | ☑️ |  | 잘 만든 Augmentation, 이미지 100장 안 부럽다 |  |  | 
+| 21 | ☑️ |  | 이미지 어디까지 우려볼까? |  |  | 
 | 22 |  |  | 너의 속이 궁금해 - Class Activation Map 살펴보기 |  |  | 
 | 23 |  |  | 나를 찾아줘 - Class Activation Map 만들기 |  |  | 
 | 24 |  |  | Object Detection |  |  | 
