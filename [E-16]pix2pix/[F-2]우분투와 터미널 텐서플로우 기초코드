@@ -1,0 +1,109 @@
+이 페이지에서는 개발자들이 많이 사용하는 우분투와 텐서플로우 등 관련 코드등을 정리했습니다.
+우분투 코드가 있어 따로 코드를 실행할 수 있는 확장자로 저장하지는 않았습니다.
+아래 코드들은 언제든지 개발 환경을 설정할 때 사용할 수 있으며 추가코드는 인터넷에 검색하는데로 추가할 수 있도록 합니다.
+아이펠 노드를 그대로 가져온 내용은 https://spaceinday.tistory.com/1 에서 확인할 수 있습니다.
+
+아나콘다를 다루는 다양한 명령어는 cheatsheet에서 확인가능
+https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
+
+$ <- 가 붙은 것은 CLI에서 뜨는 모양을 표현하기 위해 비슷한 문자를 사용한 것입니다. 쉘에서는 입력할 필요가 없습니다.
+$는 원래 사용자의 명령을 받아들일 준비가 되었음을 나타내는 표시입니다. 이는 현재 로그인한 유저 정보를 나타냅니다.
+
+
+
+# 쉘에서 파이썬을 실행하는 코드
+$ python3 
+
+# 사용자의 이름을 보여줌
+$ whoami
+
+# 내 현재 위치는 어디이인지 경로를 출력하는 명령어
+$ pwd
+
+# 현재 디렉토리 내에 있는 모든 파일 목록을 보여줘!
+$ ls
+# 좀더 자세한 목록을 보여줘
+$ ls -al
+
+# 원하는 디렉토리로 이동해보자!
+$ cd aiffel
+# 상위 폴더로 나가자
+$ cd ..
+# 홈 디렉터리로 이동
+$ cd ~
+
+# 새 폴더 만들기, 또는 폴더 삭제하기, mkdir은 make Directory의 약어
+$ mkdir new_folder
+# 폴더삭제 방법, -r 옵션은 Recursive라는 의미, 디렉토리 내부의 모든 파일 및 폴더에 대해 재귀적(반복적)으로 명령을 수행하라는 의미 
+# 디렉토리에는 -r 옵션이 필수, 개별 파일에는 -r 옵션이 필요 없음
+$ rm -r new_folder
+
+# 파일을 원하는 곳으로 옮기거나 복사하기, #new_folder 디렉토리를 만든 후 aiffel로 옮김.
+$ mv new_folder aiffel 
+
+# 파일 또는 디렉토리 복사하기, cp는 copy의 줄임말,
+# cp 명령어는 rm(삭제) 명령어와 같이 디렉토리를 복사할 때 -r 옵션을 추가해주어야 복사하려는 디렉토리의 하위디렉토리까지 함께 복사한다는 점.
+# 개별 파일을 복사하고 싶을 때에는 -r이 필요없음.
+$ cp -r new_folder ..
+
+# sudo 사용하기
+# sudo는 유닉스 및 유닉스 계열 프로그램에서 사용자가 관리자의 권한(보안 권한, 슈퍼유저로서 프로그램 구동)을 가지도록 해주는 프로그램이다.
+$ sudo (명령어)
+
+# 리스트를 확인하는 명령어
+$ sudo apt list --installed
+$ sudo dpkg -l
+# 리스트 뒤에 패키지명만 보고 싶을 때 | grep (패키지명)
+sudo apt list --intalled | grep acl
+# 컴퓨터에 설치된 패키지 인덱스 정보를 업데이트
+$ sudo apt-get update
+# 모든 패키지에 대해, 새롭게 업데이트 된 버전이 있다면 전부 업그레이드 하는 명령어
+$ sudo apt-get upgrade
+
+# 패키지 설치 cmatrix
+# -y 옵션은 설치 중간중간 나오는 질문들에 대해 모두 yes로 답하겠다는 옵션.
+$ sudo apt-get install -y cmatrix
+# 설치 완료 후 실행
+$ cmatrix
+# 패키지를 삭제하고 싶을 때 remove
+$ sudo apt-get remove cmatrix
+
+# 아나콘다 설치 경로 확인 
+# which는 프로그램 설치 경로를 확인하는 것.
+# windows에서는 where를 사용함.
+$ which conda /opt/conda/bin/conda
+
+# conda 버전확인
+$ conda --version
+
+# 가상환경 생성
+# -n 뒤에 my_env_name과 같이 원하는 가상환경의 이름을 입력하면 됨. 
+# python=3.9.7은 이 가상환경에서는 3.9.7 버전의 python을 사용하겠다는 의미
+$ conda create -n my_env_name python=3.9.7
+# 가상환경이 잘 만들어졌는지 가상환경 리스트 확인
+$ conda env list
+
+# 가상환경을 사용하려면 만든 후에 activate 해줘야함.
+# activate는 문을 열고 그 공간에 들어가는 개념으로 생각하면 됨.
+$ conda activate my_env_name
+$ conda init <SHELL_NAME>
+# 아이펠 클라우드 환경에서는 오류가 뜸 이때 아래코드 입력
+$ conda init
+# 터미널 재실행 후 아래 코드 입력
+$ conda activate my_env_name
+$ conda env list
+
+# 가상환경 내에 설치되어 있는 라이브러리 리스트 확인
+$ pip list
+
+# 가상환경 내에 텐서플로우(TensorFlow)도 설치되어 있음 확인하기 grep 사용
+$ pip list | grep Tensorflow
+
+# 텐서플로우를 원하는 버전으로 설치
+$ pip install tensorflow==2.60
+
+# 하나의 가상 환경을 종료하고 싶다면, deactivate 명령어를 사용.
+$ conda deactivate
+
+# 가상환경을 잘못 만들었다면 다음 명령어로 삭제
+$ conda env remove -n my_env_name
