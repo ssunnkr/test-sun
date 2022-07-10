@@ -22,7 +22,7 @@
 | 19 | ☑️ |  | 없다면 어떻게 될까? (ResNet Ablation Study) |  |  | 
 | 20 | ☑️ |  | 잘 만든 Augmentation, 이미지 100장 안 부럽다 |  |  | 
 | 21 | ☑️ |  | 이미지 어디까지 우려볼까? |  |  | 
-| 22 |  |  | 너의 속이 궁금해 - Class Activation Map 살펴보기 |  |  | 
+| 22 | ☑️ |  | 너의 속이 궁금해 - Class Activation Map 살펴보기 |  |  | 
 | 23 |  |  | 나를 찾아줘 - Class Activation Map 만들기 |  |  | 
 | 24 |  |  | Object Detection |  |  | 
 | 25 |  |  | GO/STOP! - Object Detection 시스템 만들기 |  |  | 
