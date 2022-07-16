@@ -24,8 +24,8 @@
 | 21 | ☑️ |  | 이미지 어디까지 우려볼까? |  |  | 
 | 22 | ☑️ |  | 너의 속이 궁금해 - Class Activation Map 살펴보기 |  |  | 
 | 23 | ☑️ |  | 나를 찾아줘 - Class Activation Map 만들기 |  |  | 
-| 24 |  |  | Object Detection |  |  | 
-| 25 |  |  | GO/STOP! - Object Detection 시스템 만들기 |  |  | 
+| 24 | ☑️ |  | Object Detection |  |  | 
+| 25 | ☑️ |  | GO/STOP! - Object Detection 시스템 만들기 |  |  | 
 | 26 |  |  | 물체를 분리하자! - 세그멘테이션 살펴보기 |  |  | 
 | 27 |  |  | 도로 영역을 찾자! - 세그멘테이션 모델 만들기 |  |  | 
 | 28 |  |  | OCR 기술의 개요 |  |  | 
